@@ -8,10 +8,11 @@
 }
 
 body, html{
-     background-image: url(../imagens/pexels-philippedonn-1257860.jpg);
+    background-image: url(../imagens/pexels-philippedonn-1257860\ \(3\).jpg);
      background-size: cover;
-     width: 100vw;
-     height: 100vh;
+     max-width: 769px;
+     
+     
 }
 
 main{
@@ -31,6 +32,8 @@ section#login{
    background-color: white;
    border-radius: 20px;
    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
+   transition: width 0.3s, heigth 0.3s ;
+   transition-timing-function: ease;
 }
 
 section#login > div#imagem{
